@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NewRestaurantActivity"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/nameIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_people_24"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/edtNewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name *"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:inputType="text"
+                android:maxLength="30"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/typeIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_restaurant_menu_24"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/edtNewType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type * (ex. Fast food, Sea food, etc)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:maxLength="50"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/priceIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_attach_money_24"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price *"
+                android:id="@+id/edtNewPrice"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:maxLength="6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/moneyIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_location_on_24"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/edtLocation"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:hint="Location address"
+                android:maxLength="50"
+                android:paddingRight="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/reporterIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_create_24"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reporter *"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/edtNewReporter"
+            android:inputType="text"
+            android:maxLength="30"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/notesIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_notes_24"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Notes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/edtNewNotes"
+                android:inputType="textMultiLine"
+                android:maxLength="500"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dateIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_access_time_24"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Visited date * (29/10/2020)"
+                android:inputType="text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/edtVisitDate"
+                android:maxLength="10" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_calendar_today_24"
+                android:layout_gravity="center"
+                android:id="@+id/btnDatePicker"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtVisitDate"
+            android:layout_marginTop="20dp"
+            android:background="#a6afbd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service rating: Need to improve"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:id="@+id/txtServiceRatingCreate"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="20dp"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="2.5"
+            android:id="@+id/serviceRating"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:id="@+id/txtCleanlinessRatingCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:textStyle="bold"
+            android:text="Cleanliness rating: Need to improve"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="2.5"
+            android:id="@+id/cleanlinessRating"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food rating: Need to improve"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:id="@+id/txtFoodRatingCreate"
+            android:layout_marginLeft="3dp"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="2.5"
+            android:id="@+id/foodRating"
+            android:layout_marginLeft="3dp"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtVisitDate"
+            android:layout_marginTop="20dp"
+            android:background="#a6afbd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload image restaurant *"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imgRestaurant_create"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_cloud_upload_24"
+                android:onClick="uploadImgRestaurant"
+                android:pointerIcon="hand"/>
+
+        </RelativeLayout>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_below="@+id/imgRestaurant_create"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

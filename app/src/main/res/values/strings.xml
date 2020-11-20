@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">i-Rate</string>
+    <string name="navigation_drawer_open">Navigation drawer open</string>
+    <string name="navigation_drawer_close">Navigation drawer close</string>
+    <string-array name="location_name_update">
+        <item>Choose location</item>
+        <item>Dong Nai</item>
+        <item>Ho Chi Minh</item>
+        <item>Da Nang</item>
+        <item>Ha Noi</item>
+        <item>Long An</item>
+        <item>Ben Tre</item>
+        <item>Ca Mau</item>
+        <item>Da Lat</item>
+        <item>Phan Thiet</item>
+        <item>Quang Tri</item>
+        <item>Thua Hien Hue</item>
+        <item>Tay Nguyen</item>
+        <item>Hai Phong</item>
+        <item>Can Tho</item>
+        <item>Bac Lieu</item>
+        <item>Vinh Long</item>
+    </string-array>
+    <string-array name="location_name">
+        <item>Dong Nai</item>
+        <item>Ho Chi Minh</item>
+        <item>Da Nang</item>
+        <item>Ha Noi</item>
+        <item>Long An</item>
+        <item>Ben Tre</item>
+        <item>Ca Mau</item>
+        <item>Da Lat</item>
+        <item>Phan Thiet</item>
+        <item>Quang Tri</item>
+        <item>Thua Hien Hue</item>
+        <item>Tay Nguyen</item>
+        <item>Hai Phong</item>
+        <item>Can Tho</item>
+        <item>Bac Lieu</item>
+        <item>Vinh Long</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "857823494676",
+    "firebase_url": "https://irate-mobile.firebaseio.com",
+    "project_id": "irate-mobile",
+    "storage_bucket": "irate-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857823494676:android:2d19542002a2b25193dd01",
+        "android_client_info": {
+          "package_name": "com.example.rentalz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857823494676-5e4jpufhmi8q7o576160tot3435pj9u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUK5gEY91QcXO-BabROR0swd_Lkx_p82E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857823494676-5e4jpufhmi8q7o576160tot3435pj9u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

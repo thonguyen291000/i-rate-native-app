@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_bottom_dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dashboard"
+        android:checked="true"/>
+
+    <item
+        android:id="@+id/nav_bottom_analyze"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:title="Analytic"/>
+
+</menu>
