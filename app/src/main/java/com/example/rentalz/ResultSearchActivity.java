@@ -118,7 +118,7 @@ public class ResultSearchActivity extends AppCompatActivity {
         //Start change activity to detail activity
         startActivity(intent);
     }
-
+    // This code I refer from https://codinginflow.com/tutorials/android/simple-recyclerview-java
     private void showList(String constraint) {
         Query query = restaurantsRef.whereEqualTo("name", constraint);
         options = new FirestoreRecyclerOptions.Builder<Restaurant>()
