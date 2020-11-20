@@ -15,7 +15,7 @@ import com.squareup.picasso.Picasso;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+// This code I refer from https://codinginflow.com/tutorials/android/simple-recyclerview-java
 public class RestaurantAdapter extends FirestoreRecyclerAdapter<Restaurant, RestaurantAdapter.RestaurantHolder> {
 
     private Context context;
