@@ -30,7 +30,7 @@ public class AnalyticFragment extends Fragment {
 
         number = view.findViewById(R.id.txtNumberOfRestaurant);
         lastDate = view.findViewById(R.id.txtDateOfLastCreate);
-
+    // This code I refer from Firebase firestore document 
         FirebaseFirestore.getInstance().collection("restaurants").orderBy("dateCreate", Query.Direction.DESCENDING).limit(1).get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
