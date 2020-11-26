@@ -13,3 +13,4 @@ This is an android application built on Android Studio software. It is used to m
 ### To run this app, you need to follow two steps:
  - Step 1: Run the Android Studio software and open the folder containing the app.
  - Step 2: Just run the app in Android Studio software.
+ - Step 3: You can log in by using the account: username("tho@gmail.com") and password ("123456")
