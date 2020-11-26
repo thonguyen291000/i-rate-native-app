@@ -1,6 +1,6 @@
 # i-rate-native-app
 This is an android application built on Android Studio software. It is used to manage restaurant's ratings of customers. 
-## Prerequisite
+## Prerequisites
 1. Android Studio environment.
 2. A virtual or real android device.
 ## Installation
